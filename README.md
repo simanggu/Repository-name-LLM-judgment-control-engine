@@ -77,3 +77,19 @@ task → thesis check → slot carry → recovery recenter → risk gate → dec
 LLMs should not just generate.
 
 They should decide when to act.
+
+## SDK Usage
+
+```python
+from llm_judgment_control import JudgmentEngine
+
+engine = JudgmentEngine()
+
+result = engine.evaluate(
+    task="Fix retry timeout bug without changing public API",
+    context="Preserve audit logs. Async only. Do not change schema.",
+)
+
+print(result.action)      # commit / hold / block
+print(result.model)       # mini / standard / none
+print(result.risk_score)
