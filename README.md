@@ -1,6 +1,6 @@
-A runtime decision layer for LLMs.
-
 # LLM Judgment Control Engine
+
+A long-context control layer that decides whether an LLM should commit, hold, or block before execution.
 
 ![demo](assets/demo_block.gif)
 
