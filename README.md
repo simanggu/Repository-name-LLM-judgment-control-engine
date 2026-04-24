@@ -29,18 +29,19 @@ This project exists because of that.
 
 ## What This Engine Controls
 
-| Failure Mode              | What the Engine Does                              |
-|---------------------------|---------------------------------------------------|   
-| Session reset             | Carries core task slots across turns              |
-| Context drift             | Detects thesis mismatch and triggers hold         |
-| Hallucination risk        | Pauses or blocks execution under uncertainty      |
-| Expensive model overuse   | Routes safe turns to lightweight models           |
-| Risky code changes        | Blocks contract-breaking or destructive execution |
-| Stale workflow state      | Holds execution when verification is required     |
-| Runtime state risk        | Holds or blocks execution when the workflow state |
-|                             is no longer trustworthy                          |
-| Team integration friction | Preserves constraints, APIs,                      |
-|                           |   and project thesis before execution             |
+## What This Engine Controls
+
+| Failure Mode | What the Engine Does |
+|---|---|
+| Session reset | Carries core task slots across turns |
+| Context drift | Detects thesis mismatch and triggers hold |
+| Hallucination risk | Pauses or blocks execution under uncertainty |
+| Expensive model overuse | Routes safe turns to lightweight models |
+| Risky code changes | Blocks contract-breaking or destructive execution |
+| Stale workflow state | Holds execution when verification is required |
+| Runtime state risk | Holds or blocks execution when the workflow state is no longer trustworthy |
+| Team integration friction | Preserves constraints, APIs, and project thesis before execution |
+
 ---
 
 ## 🎬 Demo 0 — System Overview
