@@ -254,3 +254,32 @@ http://127.0.0.1:7860
 LLMs should not just generate.
 
 They should decide when to act.
+
+---
+
+## Collaboration
+
+I am looking for early collaborators, AI coding tool builders, and teams running long-context LLM or agent workflows.
+
+This project may be relevant if your team struggles with:
+
+* LLM context drift
+* repeated re-teaching of project context
+* hallucination under uncertainty
+* expensive model overuse
+* unsafe or constraint-breaking AI code changes
+* long-running agent workflow control
+
+If you are building AI coding tools, agent runtimes, LLMOps infrastructure, or workflow automation systems, feel free to reach out.
+
+Open an issue with the tag:
+
+```text
+collaboration
+```
+
+or contact:
+
+```text
+simanggu@gmail.com
+```
