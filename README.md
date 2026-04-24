@@ -17,7 +17,7 @@ LLMs in long sessions:
 
 ## 🎬 Demo 0 — System Overview
 
-https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_overview.mp4
+[Watch demo](assets/demo_overview.mp4)
 
 → Runtime judgment layer before execution
 
@@ -25,7 +25,7 @@ https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_ove
 
 ## 🎬 Demo 1 — Dangerous Change (Block)
 
-https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_block.mp4
+[Watch demo](assets/demo_block.mp4)
 
 → Prevents breaking API / destructive execution
 
@@ -33,7 +33,7 @@ https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_blo
 
 ## 🎬 Demo 2 — Normal Execution (Commit)
 
-https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_commit.mp4
+[Watch demo](assets/demo_commit.mp4)
 
 → Safe task proceeds with lightweight model
 
@@ -41,7 +41,7 @@ https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_com
 
 ## 🎬 Demo 3 — Constraint-Aware Execution (Commit)
 
-https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_commit2.mp4
+[Watch demo](assets/demo_commit2.mp4)
 
 → Executes while preserving constraints and context
 
@@ -49,7 +49,7 @@ https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_com
 
 ## 🎬 Demo 4 — Context Drift (Hold)
 
-https://github.com/simanggu/llm-judgment-control-engine/raw/main/assets/demo_hold.mp4
+[Watch demo](assets/demo_hold.mp4)
 
 → Pauses execution when context becomes unstable
 
